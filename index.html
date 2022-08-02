@@ -4,36 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Partai</title>
+    <title>Test-0</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </head>
 <body>
-
-    <img id="gambarpartai"src="" alt="Gambar Partai">
-    
-    <div class="jarak">
-    <h3>Pilih Partai</h3>
-    <button id="pdip">PDIP</button>
-    <button id="golkar">Golkar</button>
-    <button id="gerindra">Gerindra</button>
+    <div >
+        <img class="img-fluid" id="gambarpartai"src="" alt="Gambar Partai">
     </div>
-
-    <button id="klik" onclick="klik()">Pilih</button>
-    <button id="refresh">Refresh</button>
     
-    <br>
-    <br>
-    <br>
-    <br>
-
-    <h3>Masukan text</h3>
-    <p><input type="text"id="text"></p>
-    <button id="tampil">Tampilkan Alert</button>
-
-    <h3>Siapa bapa saya ?</h3>
-    <p><input type="text" id="tebakan"></p>
-    <button id="submit">tebak</button>
-
+    <h3 class="partai">Pilih Partai</h3>
+    <div class="jarak">
+    <button type="button" class="btn btn-outline-danger btn-sm" id="pdip">PDIP</button>
+    <p></p>
+    <button type="button" class="btn btn-outline-warning btn-sm" id="golkar">Golkar</button>
+    <p></p>
+    <button type="button" class="btn btn-outline-secondary btn-sm" id="gerindra">Gerindra</button>
+    </div>
+    <br><br><br><br><br><br>
+    <button type="button" class="btn btn-success btn-sm" id="refresh">Refresh</button>
+    <button type="button" class="btn btn-primary btn-sm" id="pilih">Pilih</button>
+    <div class="masukan-text">
+    <p><input type="text"id="text" placeholder="Masukan text"></p>
+    <button type="button" class="btn btn-outline-primary" id="tampil">Tampilkan Alert</button>
+    </div>
+    <div class="tebakan">
+    <p><input type="text" id="tebakan" placeholder="Siapa bapa saya ?"></p>
+    <button type="button" class="btn btn-outline-primary" id="submit">Tebak</button>
+    </div>
     <script type="text/javascript" src="js/script.js"></script>
 
 </body>

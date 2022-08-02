@@ -1,8 +1,12 @@
+*,html {
+    margin: 0;
+    padding: 0;
+}
 body{
-    background-color: #3B79E0;
 }
 #gambarpartai {
-    height: 130px;
+    margin:5px 0 0 10px;
+    height: 160px;
     width: 130px;
     border-radius: 10px;
     border-width: 2px;
@@ -13,45 +17,39 @@ body{
     font-family: sans-serif;
 }
 
-#pdip{
-    background-color: red;
-    color: black;
-    border-radius: 3px;
-    cursor: pointer;
-}
-
-#golkar{
-    background-color:rgb(255, 255, 0);
-    color: black;
-    border-radius: 3px;
-    cursor: pointer;
-}
-
-#gerindra{
-    background-color: red;
-    color:yellow;
-    border-radius: 3px;
-    cursor: pointer;
-}
-
-#klik{
-    margin-left: 15px;
-    background-color: wheat;
-    color:black ;
-    cursor: pointer;
-    
-}
-
-.jarak {
-    margin-left: 150px;
+.partai{
+    text-shadow: 2px 2px 5px red;
+    margin: 10px 0 6px 145px;
     font-family: sans-serif;
 }
 
+#pdip{
+    
+}
+
+#golkar{
+
+}
+
+#gerindra{
+
+}
+
+
+.jarak {
+    margin: 0 0 0 10px;
+    float:left;
+    font-family: sans-serif;
+}
+#pilih{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
+}
+
 #refresh {
-    margin-top: 10px;
-    margin-left: 5px;
-    background-color: green;
-    cursor: pointer;
+margin-left: 10px;
+margin-bottom: 10px;
 }
 
 h3{
@@ -59,11 +57,21 @@ h3{
 }
 
 #tampil{
+    margin-top: 5px;
     cursor: pointer;
     
 }
 
 #submit{
     cursor: pointer;
+    margin-top: 5px;
 
+}
+
+.masukan-text{
+    margin:10px 0px 20px 10px;
+}
+
+.tebakan{
+    margin:10px 0px 0px 10px;
 }
